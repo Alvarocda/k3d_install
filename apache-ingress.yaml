@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  namespace: teste
+  name: apache
+  labels:
+    app: apache
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: apache.alvarocda.dev
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: apache-service
+            port: 
+              number: 8080
