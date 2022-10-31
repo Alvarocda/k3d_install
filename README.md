@@ -145,3 +145,14 @@ systemctl restart haproxy
 
 ## Criando o ingress
 Na hora de criar o ingress, navegue até a aba "Ingress Class" e selecione nginx, após fazer isso, vai começar a funcionar corretamente o ingress
+
+
+
+### Links uteis:
+
+ - [K3D - Exposing Services](https://k3d.io/v5.4.6/usage/exposing_services/)
+ - [JacLive: Kubernetes Leve com K3S + K3D](https://www.youtube.com/watch?v=nXgzVKdOz6M)
+
+
+### Backup dos links uteis (caso algum mude de URL ou fique fora do ar)
+ - [K3D - Exposing Services](https://web.archive.org/web/20221031210245/https://k3d.io/v5.4.6/usage/exposing_services/)
