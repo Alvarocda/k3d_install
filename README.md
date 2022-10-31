@@ -108,7 +108,7 @@ frontend main
     default_backend rancher80
 
 frontend main443
-    bind :443 ssl crt /opt/alvarocda.dev/alvarocda.dev.pem crt /opt/wildcard.alvarocda.dev/wildcard.alvarocda.dev.pem
+    bind :443 ssl crt <caminho_arquivo.pem> crt <caminho_arquivo.pem>
     mode tcp
     default_backend rancher80
 
